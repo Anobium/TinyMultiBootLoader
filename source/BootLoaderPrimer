@@ -5,4 +5,5 @@ The bootloader receives a user program from the PC and writes it in the flash me
 
 There are two types of bootloaders, some that require that the user reallocate his code and others that by themselves reallocate the first 4 instructions of the user program to another location and execute them when the bootloader exits.
 
-image[]
+image::bootloader.png[graphic,align="center"]
+

@@ -1,7 +1,7 @@
 = TinyMultiBootLoader Help
 The TinyMultiBootLoader  @ 2020 - Development - NOT COMPLETED YET!!
 
-
+ASCIIDOC format
 
 :toc:
 :toclevels: 5

@@ -1,0 +1,56 @@
+== Introducing TinyMultiBootLoader
+
+What is it?
+
+*It's a Bootloader for Microchip PIC devices.*
+
+A Bootloader is a firmware running in the PIC device which allows the user to send it's own firmware without the need of a programmer.
+
+*TinyMultiBootLoader Bootloader is*
+
+Firmwares for many PIC and AVR devices (this firmware need to be send to the microcontroler flash memory with a programmer, only once)
+a PC software which communicates, via serial connection (only, except for PIC32 for which an USB firmware exists), with the bootloader firmware in the microcontroler device and send it the user's program.
+
+*Development program*
+
+This Bootloader is based on "Tiny PIC Bootloader" (http://www.etc.ugal.ro/cchiculita/software/picbootloader.htm) made by Claudiu Chiculita.
+A special THANK to him!!!
+
+PC software is based on "Tiny Pic Bootloader for GNU/Linux" writen in python by Ferezvi.
+
+*TinyMultiBootLoader capabilities*
+
+It can program:
+  Atmel:
+  ATtiny
+  ATmega
+  NXP
+  ARM Cortex-M0+
+  Microchip:
+  PIC10
+  PIC12
+  PIC16
+  PIC18
+  PIC24
+  dsPIC30
+  dsPIC33
+  PIC32
+
+And this:
+with light modifications to the Bootloader firmware for new devices
+without having to modify something: neither your code, nor the linker script, nor remap reset/interrupts vectors to new locations, etc...
+via GUI or command line
+with automatic Reset on RTS serial pin
+with autodetect of the right COM port and baud rate (only if automatic Reset on RTS serial pin is enabled and correctly connected to PIC device)
+with HEX code verification to avoid to send a program from a different device family in your PIC (for example: prevent to program a PIC16 ".hex" in a PIC18 device)
+with debug messages capabilities
+
+
+*Licencing*
+
+This software is under "Creative Commons Attribution Non-Commercial License":
+ you can use it at home for free
+ you can use it at work for free
+ you can share it for free, but this licence must remain the same
+ you can modify it as you want, but this licence must remain the same
+ you CAN'T sell it, even if you have modified it

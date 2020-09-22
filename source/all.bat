@@ -1,0 +1,1 @@
+gcbdoc TinyMultiBootLoader all

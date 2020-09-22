@@ -1,7 +1,5 @@
-= TinyMultiBootLoader Help
-The TinyMultiBootLoader  @ 2020 - Development - NOT COMPLETED YET!!
-
-ASCIIDOC format.
+= TinyMultiBootLoaderPlus Help
+The TinyMultiBootLoaderPlus  @ 2020 - Development - NOT COMPLETED YET!!
 
 :toc:
 :toclevels: 5
@@ -14,7 +12,7 @@ ifdef::backend-pdf[<<<]
 include::changes.adoc[]
 
 
-== TinyMultiBootLoader Maintenance
+== TinyMultiBootLoaderPlus Maintenance
 
 This is the maintenance section of the Help file.  Please refer the sub-sections for details using the contents/folder view.
 

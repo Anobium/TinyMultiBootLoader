@@ -1,4 +1,4 @@
-== Introducing TinyMultiBootLoader
+== Introducing TinyMultiBootLoaderPlus
 
 What is it?
 

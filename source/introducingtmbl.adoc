@@ -13,14 +13,14 @@ a PC software which communicates, via serial connection (only, except for PIC32 
 
 *Development program*
 
-This Bootloader is based on "Tiny PIC Bootloader" (http://www.etc.ugal.ro/cchiculita/software/picbootloader.htm) made by Claudiu Chiculita.
-A special THANK to him!!!
+This bootloader is based on the original works by "Tiny PIC Bootloader" see http://www.etc.ugal.ro/cchiculita/software/picbootloader.htm by Claudiu Chiculita.
+We thank his great works.
 
-PC software is based on "Tiny Pic Bootloader for GNU/Linux" writen in python by Ferezvi.
+The Windows Operating System  software is based on "Tiny Pic Bootloader for GNU/Linux" writen in python by Ferezvi and has been ported to Visual Studio.
 
 *TinyMultiBootLoader capabilities*
 
-It can program:
+TinyMultiBootLoader supports the following microconrtollers:
   Atmel:
   ATtiny
   ATmega
@@ -36,7 +36,8 @@ It can program:
   dsPIC33
   PIC32
 
-And this:
+And:
+
 with light modifications to the Bootloader firmware for new devices
 without having to modify something: neither your code, nor the linker script, nor remap reset/interrupts vectors to new locations, etc...
 via GUI or command line

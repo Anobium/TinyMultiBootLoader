@@ -11,6 +11,23 @@ A Bootloader is a firmware running in the PIC device which allows the user to se
 Firmwares for many PIC and AVR devices (this firmware need to be send to the microcontroler flash memory with a programmer, only once)
 a PC software which communicates, via serial connection (only, except for PIC32 for which an USB firmware exists), with the bootloader firmware in the microcontroler device and send it the user's program.
 
+*Features of the firmware*
+
+Size of only 100 words; (all versions, for 16F,18F,dsPIC occupy less than 100 words);
+Can write flash, eeprom and configuration bytes(18F);
+On reset, waits 1 second (adjustable) for a message from the PC, if not received, launch user application;
+The .asm file can be easily modified and adapted for any frequency (or baudrate);
+
+*Features of the PC software*
+
+Can upload programs into flash (in current version eeprom and cfg bytes can be modified only manually, depending on the device type);
+Works with PIC16F,PIC18F and dsPIC types; automatically detects HEX content and PIC model;
+Remembers last settings;
+In case of errors, performs retransmissions or tries to resynchronize with pic;
+The communication settings are editable so you can write any COM number or desired baud;
+If a filename is specified as a command line parameter, it will automatically try to write it;
+
+
 *Development program*
 
 This bootloader is based on the original works by "Tiny PIC Bootloader" see http://www.etc.ugal.ro/cchiculita/software/picbootloader.htm by Claudiu Chiculita.

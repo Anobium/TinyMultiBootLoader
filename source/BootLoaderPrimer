@@ -1,0 +1,8 @@
+== Bootloader Primer
+
+A bootloader is a program that stays in the microcontroller and communicates with the PC (usually through the serial interface). 
+The bootloader receives a user program from the PC and writes it in the flash memory, then launches this program in execution. Bootloaders can only be used with those microcontrollers that can write their flash memory through software. The bootloader itself must be written into the flash memory with an external programmer. In order for the bootloader to be launched after each reset, a "goto bootloader" instruction must exist somewhere in the first 4 instructions; 
+
+There are two types of bootloaders, some that require that the user reallocate his code and others that by themselves reallocate the first 4 instructions of the user program to another location and execute them when the bootloader exits.
+
+image[]

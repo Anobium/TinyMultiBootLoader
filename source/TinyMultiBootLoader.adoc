@@ -1,4 +1,4 @@
-\\This is the master TOC file.  Add files by include to this file only.
+//This is the master TOC file.  Add files by include to this file only.
 = TinyMultiBootLoaderPlus Help
 The TinyMultiBootLoaderPlus  @ 2020 - Development - NOT COMPLETED YET!!
 

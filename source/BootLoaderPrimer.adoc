@@ -1,9 +1,38 @@
 == Bootloader Primer
 
-A bootloader is a program that stays in the microcontroller and communicates with the PC (usually through the serial interface). 
-The bootloader receives a user program from the PC and writes it in the flash memory, then launches this program in execution. Bootloaders can only be used with those microcontrollers that can write their flash memory through software. The bootloader itself must be written into the flash memory with an external programmer. In order for the bootloader to be launched after each reset, a "goto bootloader" instruction must exist somewhere in the first 4 instructions; 
+*A Bootloader*
 
-There are two types of bootloaders, some that require that the user reallocate his code and others that by themselves reallocate the first 4 instructions of the user program to another location and execute them when the bootloader exits.
+- is a special program that runs before any user program is running.
+- is programmed into a microcontroller and communicates with the computer usually through the serial interface.
+- receives a user program via a loading process from the source computer and writes the user program in the flash memory, then launches this user program for execution.
 
-image::./images/bootloader.png[graphic,align="center"]
 
+There are two types of bootloaders, some that require that the user to locate the user program to fit above the bootloader, and
+the second approach where the reallocation of the user program if completed by the bootloader loading process where the first 4 instructions of the user program are adapted to goto the bootloader program memory address.
+
+With both type of bootloader once the bootloader has terminaed the bootloader exits and pass control to the user program.
+
+*TinyMultiBootloaderPlus*
+
+TinyMultiBootloaderPlus uses the second type.  TinyMultiBootloaderPlus essentially it located in the highest memory location and is execture via a GOTO statement within the first four words of the microcontroller.&#160;&#160;
+When a user program is loaded via the loading process, the user program is adapted as follows:
+
+- The first four instructions of the source user program are programmed into the memory four instructions below the bootloader.
+- The first four instructions of the source user program are replaced with instructions to GOTO to the bootloader memory location.
+- Then, the remainder of the source user program remains the same.
+
+The diagram below shows the method.
+The left hand diagram shows the source user program.
+The right hand diagram shows the bootloaders' GOTO and the Bootloader (in red), the user program is the loaded (in green)
+
+image::bootloader.png[graphic,align="center"]
+
+*Bootloader Constraints*
+
+Bootloaders can only be used with those microcontrollers that can write to flash memory through software.
+
+The bootloader itself must be written into the flash memory with an external programmer.
+
+In order for the bootloader to be launched after each reset, a "goto bootloader" instruction *must* exist in the first 4 instructions.
+
+These Constraints apply to the TinyMultiBootloaderPlus bootloader.

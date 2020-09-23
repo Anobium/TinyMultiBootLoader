@@ -2,7 +2,7 @@
 *Formal Release of <>*
 
 {empty} +
-[cols=^1,^1, options=header,width=60%]
+[cols=^2,^2, options=header,width=60%]
 |===
 |*Reference*
 |*Time Stamp*

@@ -19,7 +19,7 @@
 
 {empty} +
 
-*Changes in this release*::
+*Changes in this release*
 
 2020/9/20:
   Development team now lead by Evan R. Venn - Anobium

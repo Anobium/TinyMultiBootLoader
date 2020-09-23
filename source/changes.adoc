@@ -21,12 +21,12 @@
 
 *Changes in this release*
 
-2020/9/20:
+2020/9/20: release of TinyMultiBootloader+ (v0.12.x)
 
   Development team now lead by Evan R. Venn - Anobium
   SourceForge now include source for version 12
   SourceForge updated to include downloads for Firmware and a PC Application
-  Release of TinyMultiBootloader+ (v0.12.x)
+  
   
 2018/03/27:	release of TinyMultiBootloader+ (v0.12.5)	
 

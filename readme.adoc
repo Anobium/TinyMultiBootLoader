@@ -4,6 +4,10 @@ This is the Git for the TinyMutilBootLoader.  You will find the source Asciidoc'
 
 Thank you for your help.
 
+== Want to see the outputs in multiple formats?
+
+See here:  http://tinypicbootload.sourceforge.net/help/output/web/TinyMultiBootLoader/
+
 Evan
 
 

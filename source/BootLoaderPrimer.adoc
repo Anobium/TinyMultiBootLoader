@@ -2,8 +2,8 @@
 
 *A Bootloader*
 
-- is a special program that runs before any user program is running.
-- is programmed into a microcontroller and communicates with the computer usually through the serial interface.
+- is a special program that runs before any user program is executed.  
+- is programmed into a microcontroller and communicates with the computer usually through the serial interface to support the transfer of the user program.
 - receives a user program via a loading process from the source computer and writes the user program in the flash memory, then launches this user program for execution.
 
 

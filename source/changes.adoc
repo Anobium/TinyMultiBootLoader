@@ -1,8 +1,8 @@
 == Changes
-*Formal Release of <>*
+*Formal Release of v0.12.5*
 
 {empty} +
-[cols=^2,^2, options=header,width=60%]
+[cols="^1,^1", options="header",width="60%"]
 |===
 |*Reference*
 |*Time Stamp*
@@ -21,14 +21,14 @@
 
 *Changes in this release*
 
-2020/9/20: release of TinyMultiBootloader+ (v0.12.x)
+2020/9/20: release of TinyMultiBootLoaderPlus+ (v0.12.x)
 
   Development team now lead by Evan R. Venn - Anobium
   SourceForge now include source for version 12
   SourceForge updated to include downloads for Firmware and a PC Application
-  
-  
-2018/03/27:	release of TinyMultiBootloader+ (v0.12.5)	
+
+
+2018/03/27: release of TinyMultiBootLoaderPlus+ (v0.12.5)
 
   Development team now includes Evan R. Venn - Anobium
   SourceForge updated to include source for version 1
@@ -38,15 +38,15 @@
   Updated User interface  for useability
   Updated to include support for USB
 
-2016/05/22:	release of Tiny_Avr-Pic_Bootloader+ (v0.11.0)
+2016/05/22: release of Tiny_Avr-Pic_Bootloader+ (v0.11.0)
 
-  Docs / Web site: 
+  Docs / Web site:
   in "Tested compilers: PIC" page:
   "Microchip C18" added
   "Microchip XC8" moddified
   "JALv2" moddified
 
-2015/02/24:	Tiny AVR/PIC Bootloader+ is now Tiny Multi Bootloader+
+2015/02/24: Tiny AVR/PIC Bootloader+ is now Tiny Multi Bootloader+
   release of Tiny_Avr-Pic_Bootloader+ (v0.10.0)
   Docs / Web site:
 
@@ -64,7 +64,7 @@
   Firmwares: Microchip PIC10, PIC12, PIC16, PIC18, PIC18J pages modified: how to generate absolute code (and not relocatable code) for modified bootloaders (Dan)
   Changed screenshots
 
-2014/07/03:	Release of Tiny_Avr-Pic_Bootloader+ (v0.9.0)
+2014/07/03: Release of Tiny_Avr-Pic_Bootloader+ (v0.9.0)
 
   Docs / Web site -  Web site now uses frames
   Tested compilers: NXP ARM page added
@@ -79,7 +79,7 @@
   difference between D and E type explained (from Dan) in Microchip 16-bit PIC MCU page
   Tested Devices: PIC updated.
 
-2014/02/22:	 Eelease of Tiny_Avr-Pic_Bootloader+ (v0.8.3.1)
+2014/02/22:  Eelease of Tiny_Avr-Pic_Bootloader+ (v0.8.3.1)
 
   Docs / Web site:
   About page modified.

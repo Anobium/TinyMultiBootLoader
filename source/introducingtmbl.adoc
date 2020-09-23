@@ -1,14 +1,15 @@
 == Introducing TinyMultiBootLoaderPlus
 
-What is it?
+*What is TinyMultiBootLoaderPlus?*
 
-*It's a Bootloader for Microchip PIC devices.*
+It is a bootloader for microcontrollers
 
 A Bootloader is a firmware running in the PIC device which allows the user to send it's own firmware without the need of a programmer.
 
-*TinyMultiBootLoader Bootloader is*
+*TinyMultiBootLoaderPlus Bootloader is*
 
-Firmwares for many PIC and AVR devices (this firmware need to be send to the microcontroler flash memory with a programmer, only once)
+Firmwares for many microcontrollers including PICs and AVR devices.  This microconroller firmware is needed to be send to the microcontroler flash memory with a programmer, only once.
+
 a PC software which communicates, via serial connection (only, except for PIC32 for which an USB firmware exists), with the bootloader firmware in the microcontroler device and send it the user's program.
 
 *Features of the firmware*
@@ -35,9 +36,9 @@ We thank his great works.
 
 The Windows Operating System  software is based on "Tiny Pic Bootloader for GNU/Linux" writen in python by Ferezvi and has been ported to Visual Studio.
 
-*TinyMultiBootLoader capabilities*
+*TinyMultiBootLoaderPlus capabilities*
 
-TinyMultiBootLoader supports the following microconrtollers:
+TinyMultiBootLoaderPlus supports the following microconrtollers:
   Atmel:
   ATtiny
   ATmega

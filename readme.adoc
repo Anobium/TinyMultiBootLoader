@@ -6,7 +6,7 @@ Thank you for your help.
 
 == Want to see the outputs in multiple formats?
 
-See here:  http://tinypicbootload.sourceforge.net/help/output/web/TinyMultiBootLoader/
+See here:  http://tinypicbootload.sourceforge.net/help/output 
 
 Evan
 

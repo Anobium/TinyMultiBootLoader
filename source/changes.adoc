@@ -21,6 +21,28 @@
 
 *Changes in this release*::
 
+2020/9/20:
+  Development team now lead by Evan R. Venn - Anobium
+  SourceForge now include source for version 12
+  SourceForge updated to include downloads for Firmware and a PC Application
+  Release of TinyMultiBootloader+ (v0.12.x)
+  
+2018/03/27:	
+  Development team now includes Evan R. Venn - Anobium
+  SourceForge updated to include source for version 1
+  SourceForge updated to include downloads for Firmware and a PC Application
+  Release of Tiny_Avr-Pic_Bootloader+ (v0.12.x)
+  Updated User interface - huge changes to remove typos and languge issues
+  Updated User interface  for useability
+  Updated to include support for USB
+
+2016/05/22:	
+  release of Tiny_Avr-Pic_Bootloader+ (v0.11.0)
+  Docs / Web site: 
+  in "Tested compilers: PIC" page:
+  "Microchip C18" added
+  "Microchip XC8" moddified
+  "JALv2" moddified
 
 2015/02/24:	Tiny AVR/PIC Bootloader+ is now Tiny Multi Bootloader+
   release of Tiny_Avr-Pic_Bootloader+ (v0.10.0)

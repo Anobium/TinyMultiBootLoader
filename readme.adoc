@@ -41,7 +41,7 @@ This is an example of how to show user code.  Four dashes, then code indented by
 ----
     ----
 
-    GLCDCLS
+    c++
 
     ----
 ----

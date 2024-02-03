@@ -1,0 +1,175 @@
+== Changes
+*Formal Release of v0.12.5*
+
+{empty} +
+[cols="^1,^1", options="header",width="60%"]
+|===
+|*Reference*
+|*Time Stamp*
+
+|ASCIIDOCs rendered
+|{localdate} +
+{localtime}
+
+|Master ToC information
+|{docdate} +
+{doctime}
+
+|===
+
+{empty} +
+
+*Changes in this release*
+
+2020/9/20: release of TinyMultiBootLoaderPlus+ (v0.12.x)
+
+  Development team now lead by Evan R. Venn - Anobium
+  SourceForge now include source for version 12
+  SourceForge updated to include downloads for Firmware and a PC Application
+
+
+2018/03/27: release of TinyMultiBootLoaderPlus+ (v0.12.5)
+
+  Development team now includes Evan R. Venn - Anobium
+  SourceForge updated to include source for version 1
+  SourceForge updated to include downloads for Firmware and a PC Application
+  Release of Tiny_Avr-Pic_Bootloader+ (v0.12.x)
+  Updated User interface - huge changes to remove typos and languge issues
+  Updated User interface  for useability
+  Updated to include support for USB
+
+2016/05/22: release of Tiny_Avr-Pic_Bootloader+ (v0.11.0)
+
+  Docs / Web site:
+  in "Tested compilers: PIC" page:
+  "Microchip C18" added
+  "Microchip XC8" moddified
+  "JALv2" moddified
+
+2015/02/24: Tiny AVR/PIC Bootloader+ is now Tiny Multi Bootloader+
+  release of Tiny_Avr-Pic_Bootloader+ (v0.10.0)
+  Docs / Web site:
+
+  Tested compilers: TI page added
+  Tested devices: TI page added
+  TI MPS430 page added
+  Tested compilers: 8051 page added
+  Tested devices: 8051 page added
+  Silicon Labs C8051 page added
+  Tested compilers: Microchip PIC page modified: SourceBoost - BoostC compiler added
+  Using PC software page modified: upsate of the command line documentation
+  Tested Devices: Microchip PIC page modified: added note from Dan posted on 2014.02.06 (http://sourceforge.net/p/tinypicbootload/discussion/general/thread/f759f79b/)
+  Tested Devices: Microchip PIC updated: added new devices
+  Firmwares: Microchip PIC10, PIC12, PIC16 pages modified: Loading firmware from PC app, wo/ changing RESET vector section added (http://sourceforge.net/p/tinypicbootload/discussion/help/thread/645cfea2/) (Dan)
+  Firmwares: Microchip PIC10, PIC12, PIC16, PIC18, PIC18J pages modified: how to generate absolute code (and not relocatable code) for modified bootloaders (Dan)
+  Changed screenshots
+
+2014/07/03: Release of Tiny_Avr-Pic_Bootloader+ (v0.9.0)
+
+  Docs / Web site -  Web site now uses frames
+  Tested compilers: NXP ARM page added
+  Tested devices: NXP ARM page added
+  PIC18J page added
+  Microchip 16-bit PIC MCU page added
+  PIC24 page's name modified to Type D
+  dsPIC page's name modified to Type E
+  NXP ARM Cortex-M0 page added
+  About page modified
+  description of data transfer formats (from Dan) added in PIC10, PIC12, PIC16, PIC18, PIC18J, 16-bit PIC TypeD and Type E pages
+  difference between D and E type explained (from Dan) in Microchip 16-bit PIC MCU page
+  Tested Devices: PIC updated.
+
+2014/02/22:  Eelease of Tiny_Avr-Pic_Bootloader+ (v0.8.3.1)
+
+  Docs / Web site:
+  About page modified.
+  PIC18F1330 device added to Tested Devices: PIC page.
+  In Firmwares: PIC32 page, use of USB firmware explained.
+  Tested Devices: PIC updated.
+  Tested Compilers: PIC updated.
+
+2013/12/31:
+
+  release of Tiny_Avr-Pic_Bootloader+ (v0.8.3)
+  Docs / Web site:
+  Added in the Tested PIC Compilers page, JALv2 tips to get it works with TinyBootloader+ (from Sunish).
+  Added in the Tested PIC Compilers page, PIC18 assembler tips to get it works with TinyBootloader+ (from Dan).
+
+2013/10/09:
+
+  release of Tiny_Avr-Pic_Bootloader+ (v0.8.2)
+
+2013/09/17:
+
+  release of Tiny_Avr-Pic_Bootloader+ (v0.8.1)
+
+2013/07/31:
+
+  release of Tiny_Avr-Pic_Bootloader+ (v0.8.0)
+
+2013/07/20:
+
+  release of Tiny_Avr-Pic_Bootloader+ (v0.7.1)
+
+2013/07/18:
+
+  release of Tiny_Avr-Pic_Bootloader+ (v0.7.0.2)
+
+2013/07/12:
+
+  release of Tiny_Avr-Pic_Bootloader+ (v0.7.0.1)
+
+2013/07/06:
+
+  Tiny Pic Bootloader+ is now Tiny AVR/PIC Bootloader+
+  release of Tiny_Avr-Pic_Bootloader+ (v0.7.0)
+  Docs / Web site:
+  Added Tested devices: AVR page.
+  Added Firmwares: modify for ATtiny page.
+
+2013/05/31:
+
+  release of TinyPicBootloader+ (v0.6.5.1)
+
+2013/05/16:
+
+  release of TinyPicBootloader+ (v0.6.5)
+  Docs / Web site:
+  Tested devices page updated.
+
+2013/05/08:
+
+  release of TinyPicBootloader+ (v0.6.4)
+  Docs / Web site:
+  changed web site layout.
+  Quickstart page complete.
+
+2013-04-16:
+
+  release of TinyPicBootloader+ (v0.6.3.1)
+  Docs / Web site:
+  Hardware Connections page complete.
+
+2013-04-12:
+
+  release of TinyPicBootloader+ (v0.6.3)
+
+2013-04-10:
+
+  release of TinyPicBootloader+ (v0.6.2.1)
+
+2013-04-10:
+
+  release of TinyPicBootloader+ (v0.6.2)
+
+2013-02-03:
+
+  release of TinyPicBootloader+ (v0.6.1)
+
+2013-02-02:
+
+  Website layout created
+  Forum created
+
+2013-01-31:
+  First public release of TinyPicBootloader+ (v0.6)

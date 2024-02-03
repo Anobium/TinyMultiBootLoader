@@ -1,8 +1,0 @@
-=== Microchip PIC12
-
-*Introduction:*
-
-This introduction covers
-
-{empty} +
-{empty} +

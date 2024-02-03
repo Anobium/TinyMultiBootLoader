@@ -1,0 +1,5 @@
+Please review this key information.
+
+You must install this software into a directory where you have read/write permissions.
+
+You cannot install this release of the software into a directory where you only have read access.

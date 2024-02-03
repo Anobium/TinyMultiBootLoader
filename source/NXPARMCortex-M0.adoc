@@ -1,8 +1,0 @@
-=== NXPARMCortex-M0
-
-*Introduction:*
-
-This introduction covers
-
-{empty} +
-{empty} +

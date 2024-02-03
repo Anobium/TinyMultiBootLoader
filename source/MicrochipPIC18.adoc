@@ -1,8 +1,0 @@
-=== Microchip PIC18
-
-*Introduction:*
-
-This introduction covers
-
-{empty} +
-{empty} +

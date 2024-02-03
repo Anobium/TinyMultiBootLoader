@@ -1,8 +1,0 @@
-=== Microchip PIC16
-
-*Introduction:*
-
-This introduction covers
-
-{empty} +
-{empty} +
